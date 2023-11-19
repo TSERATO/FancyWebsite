@@ -1,0 +1,32 @@
+:root {
+  --blue: #2eaccc;
+  --blue-light: #3bd8ff;
+  --blue-dark: #134d5c;
+  --background-color: #030311;
+  --foreground-color: #fff;
+  --gray: #929292;
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-blue-light {
+  color: var(--blue-light);
+}
+
+.color-blue-dark {
+  color: var(--blue-dark);
+}
+
+.color-background {
+  color: var(--background-color);
+}
+
+.color-foreground {
+  color: var(--foreground-color);
+}
+
+.color-gray {
+  color: var(--gray);
+}

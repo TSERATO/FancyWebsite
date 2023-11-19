@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+@import './colors.css';
+
+:root {
+  --font-size: 18px;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+  font-family: 'Open Sans', 'Arial', serif;
+  font-weight: 500;
+  font-size: var(--font-size);
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  /* background-color: rgba(144, 238, 144, 0.6); */
+  background-color: rgba(75, 247, 247, 0.397);
+}
