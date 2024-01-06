@@ -15,9 +15,19 @@ const router = createRouter({
       component: () => import('../views/plugin/impl/FancyNpcs/FancyNpcs.vue')
     },
     {
+      path: '/FancyNpcs/Download',
+      name: 'fn-download',
+      component: () => import('../views/plugin/impl/FancyNpcs/FN-Downloads.vue')
+    },
+    {
       path: '/FancyHolograms',
       name: 'fancyholograms',
       component: () => import('../views/plugin/impl/FancyHolograms/FancyHolograms.vue')
+    },
+    {
+      path: '/FancyHolograms/Download',
+      name: 'fh-download',
+      component: () => import('../views/plugin/impl/FancyHolograms/FH-Downloads.vue')
     },
     {
       path: '/Impressum',
