@@ -9,7 +9,7 @@
 
         <div>
           <h1>FancyPlugins</h1>
-          <p class="color-yellow-dark">FancyPlugins is a collection of plugins that will make look your server more <b>fancy</b>.</p>
+          <p class="color-yellow-dark">FancyPlugins is a collection of plugins that will make your server look more <b>fancy</b>.</p>
           <p class="color-yellow-dark">Our focus is to create <b>simple</b>, <b>lightweight</b> and <b>fast</b> plugins.</p>
 
           <hr>
@@ -49,7 +49,6 @@ h1, h2 {
   font-family: 'Ubuntu';
   padding: 0;
   margin: 0;
-  //color: #e53239;
 }
 
 h1 {

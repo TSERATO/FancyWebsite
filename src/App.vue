@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import NavigationBar from "@/components/NavigationBar.vue";
+import Footer from "@/components/Footer.vue";
 
 </script>
 
@@ -12,13 +13,15 @@ import NavigationBar from "@/components/NavigationBar.vue";
   <main>
     <RouterView />
   </main>
+
+  <Footer/>
 </template>
 
 <style scoped>
   main {
-    width: 50%;
+    min-height: 100vh;
+    width: 60%;
     padding: 50px 15px 15px;
-    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
   }

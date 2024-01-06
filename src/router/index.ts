@@ -19,6 +19,16 @@ const router = createRouter({
       name: 'fancyholograms',
       component: () => import('../views/plugin/impl/FancyHolograms/FancyHolograms.vue')
     },
+    {
+      path: '/Impressum',
+      name: 'impressum',
+      component: () => import('../views/Impressum.vue')
+    },
+    {
+      path: '/Datenschutz',
+      name: 'datenschutz',
+      component: () => import('../views/Datenschutz.vue')
+    },
   ]
 })
 
