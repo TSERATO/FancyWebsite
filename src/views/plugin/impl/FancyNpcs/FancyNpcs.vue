@@ -20,7 +20,7 @@ import Sidebar from "@/components/Sidebar.vue";
   <p>The plugin is only supported for 1.19.4 - latest version.<br>It is highly recommended to use Paper or a fork of it - Folia is also supported.</p>
 
   <RouterLink :to="'/FancyNpcs/download/'"><button class="download">Download</button></RouterLink>
-  <a class="download" href="https://fancymcplugins.github.io/docs/fancynpcs.html" target="_blank">Documentation</a>
+  <a class="download" href="https://fancyplugins.de/docs/fancynpcs.html" target="_blank">Documentation</a>
 
   <h2>Features</h2>
 

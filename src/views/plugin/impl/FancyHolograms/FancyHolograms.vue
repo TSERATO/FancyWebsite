@@ -21,7 +21,7 @@ import Sidebar from "@/components/Sidebar.vue";
   <p>PlaceholderAPI and MiniPlaceholders are supported.</p>
 
   <RouterLink :to="'/FancyHolograms/download/'"><button class="download">Download</button></RouterLink>
-  <a class="download" href="https://fancymcplugins.github.io/docs/fancyholograms.html" target="_blank">Documentation</a>
+  <a class="download" href="https://fancyplugins.de/docs/fancyholograms.html" target="_blank">Documentation</a>
 
   <h2>Features</h2>
 

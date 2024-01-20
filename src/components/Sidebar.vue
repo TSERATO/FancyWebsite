@@ -7,7 +7,7 @@ const props = defineProps(["plugin"])
     <div class="bg"></div>
     <ul>
       <RouterLink :to="'/' + props.plugin + '/'"><li>{{props.plugin}}</li></RouterLink>
-      <li><a :href="'https://fancymcplugins.github.io/docs/'+props.plugin.toLowerCase()+'.html'" target="_blank">Docs</a></li>
+      <li><a :href="'https://fancyplugins.de/docs/'+props.plugin.toLowerCase()+'.html'" target="_blank">Docs</a></li>
       <RouterLink :to="'/' + props.plugin + '/download/'"><li>Download</li></RouterLink>
       <hr>
       <li><a :href="'https://github.com/FancyMcPlugins/' + plugin" target="_blank">GitHub</a></li>
