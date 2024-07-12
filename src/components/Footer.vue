@@ -19,13 +19,13 @@
         <a href="https://discord.gg/ZUgYCEJUEx"><p>Discord</p></a>
       </div>
 
-      <div>
-        <p><RouterLink to="Impressum">Impressum</RouterLink></p>
-        <p><RouterLink to="Datenschutz">Datenschutz</RouterLink></p>
-      </div>
+<!--      <div>-->
+<!--        <p><RouterLink to="Impressum">Impressum</RouterLink></p>-->
+<!--        <p><RouterLink to="Datenschutz">Datenschutz</RouterLink></p>-->
+<!--      </div>-->
 
       <div>
-        <p>&copy; 2021-2023 FancyPlugins</p>
+        <p>&copy; 2021-2024 FancyPlugins</p>
       </div>
     </div>
   </div>

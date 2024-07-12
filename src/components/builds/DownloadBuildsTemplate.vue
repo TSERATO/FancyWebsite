@@ -68,7 +68,7 @@ fetchAndRenderBuilds();
   <p class="stable-builds">
     You can download stable builds at the following places:<br>
     <a :href="'https://modrinth.com/plugin/'+props.plugin+'/versions'" target="_blank">Modrinth</a>,
-    <a :href="'https://hangar.papermc.io/Oliver/'+props.plugin+'/versions'" target="_blank">Modrinth</a>,
+    <a :href="'https://hangar.papermc.io/Oliver/'+props.plugin+'/versions'" target="_blank">Hangar</a>,
     <a :href="'https://github.com/FancyMcPlugins/'+props.plugin+'/releases'" target="_blank">GitHub</a>,
   </p>
 
