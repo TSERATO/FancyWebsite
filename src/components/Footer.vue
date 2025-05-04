@@ -25,7 +25,7 @@
 <!--      </div>-->
 
       <div>
-        <p>&copy; 2021-2024 FancyPlugins</p>
+        <p>&copy; 2021-2025 FancyInnovations</p>
       </div>
     </div>
   </div>
