@@ -17,20 +17,8 @@
   </url>
 
   <url>
-    <loc>https://fancyplugins.de/FancyNpcs/download/</loc>
-    <lastmod>2024-01-20T15:00:00+00:00</lastmod>
-    <priority>0.50</priority>
-  </url>
-
-  <url>
     <loc>https://fancyplugins.de/FancyHolograms/</loc>
     <lastmod>2024-01-20T15:00:00+00:00</lastmod>
     <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://fancyplugins.de/FancyHolograms/download/</loc>
-    <lastmod>2024-01-20T15:00:00+00:00</lastmod>
-    <priority>0.50</priority>
   </url>
 </urlset>

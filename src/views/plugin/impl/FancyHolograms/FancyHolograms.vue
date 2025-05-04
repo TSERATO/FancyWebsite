@@ -20,8 +20,8 @@ import Sidebar from "@/components/Sidebar.vue";
   <p>The plugin is only supported for 1.19.4 - latest version.<br>It is highly recommended to use Paper or a fork of it - Folia is also supported.</p>
   <p>PlaceholderAPI and MiniPlaceholders are supported.</p>
 
-  <RouterLink :to="'/FancyHolograms/download/'"><button class="download">Download</button></RouterLink>
-  <a class="download" href="https://fancyplugins.de/docs/fancyholograms.html" target="_blank">Documentation</a>
+  <a class="download" href="https://modrinth.com/plugin/fancyholograms/versions" target="_blank">Downloaad</a>
+  <a class="download" href="https://docs.fancyinnovations.com/fancyholograms/" target="_blank">Documentation</a>
 
   <h2>Features</h2>
 

@@ -1,12 +1,15 @@
 <script setup lang="ts">
 
-import Sidebar from "@/components/Sidebar.vue";
-import DownloadBuilds from "@/components/builds/DownloadBuildsTemplate.vue";
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  window.location.href = 'https://modrinth.com/plugin/fancyholograms/versions';
+})
+
 </script>
 
 <template>
-  <Sidebar plugin="FancyHolograms"/>
-  <DownloadBuilds plugin="FancyHolograms"/>
+  <h1>Download at: https://modrinth.com/plugin/fancyholograms/versions</h1>
 </template>
 
 <style scoped>

@@ -19,8 +19,8 @@ import Sidebar from "@/components/Sidebar.vue";
   <p>FancyNpcs is a simple and lightweight npc plugin for minecraft servers.<br>It is using packets and therefore it is blazingly fast.</p>
   <p>The plugin is only supported for 1.19.4 - latest version.<br>It is highly recommended to use Paper or a fork of it - Folia is also supported.</p>
 
-  <RouterLink :to="'/FancyNpcs/download/'"><button class="download">Download</button></RouterLink>
-  <a class="download" href="https://fancyplugins.de/docs/fancynpcs.html" target="_blank">Documentation</a>
+  <a class="download" href="https://modrinth.com/plugin/fancynpcs/versions" target="_blank">Download</a>
+  <a class="download" href="https://docs.fancyinnovations.com/fancynpcs/" target="_blank">Documentation</a>
 
   <h2>Features</h2>
 

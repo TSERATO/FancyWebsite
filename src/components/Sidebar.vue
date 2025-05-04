@@ -6,11 +6,10 @@ const props = defineProps(["plugin"])
   <div class="sidebar">
     <div class="bg"></div>
     <ul>
-      <RouterLink :to="'/' + props.plugin + '/'"><li>{{props.plugin}}</li></RouterLink>
-      <li><a :href="'https://fancyplugins.de/docs/'+props.plugin.toLowerCase()+'.html'" target="_blank">Docs</a></li>
-      <RouterLink :to="'/' + props.plugin + '/download/'"><li>Download</li></RouterLink>
+      <li><a :href="'https://docs.fancyinnovations.com/'+props.plugin.toLowerCase()" target="_blank">Docs</a></li>
+      <li><a :href="'https://modrinth.com/plugin/'+props.plugin+'/versions'" target="_blank">Download</a></li>
       <hr>
-      <li><a :href="'https://github.com/FancyMcPlugins/' + plugin" target="_blank">GitHub</a></li>
+      <li><a :href="'https://github.com/FancyInnovations/' + plugin" target="_blank">GitHub</a></li>
       <li><a href="https://discord.gg/ZUgYCEJUEx" target="_blank">Discord</a></li>
     </ul>
   </div>

@@ -17,7 +17,10 @@ const router = createRouter({
     {
       path: '/FancyNpcs/Download',
       name: 'fn-download',
-      component: () => import('../views/plugin/impl/FancyNpcs/FN-Downloads.vue')
+      component: () => import('../views/plugin/impl/FancyNpcs/FN-Downloads.vue'),
+      beforeEnter: () => {
+        window.location.href = 'https://modrinth.com/plugin/fancynpcs/versions';
+      }
     },
     {
       path: '/FancyHolograms',
