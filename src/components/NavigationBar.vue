@@ -6,12 +6,12 @@ import { RouterLink } from 'vue-router'
   <nav>
     <div class="nav-item">
       <RouterLink to="/">
-        <img src="/src/assets/img/FancyPlugins_1024.png" alt="FancyPlugins" />
+        <img src="/src/assets/img/FancyPlugins_1024.png" alt="FancyInnovations" />
       </RouterLink>
     </div>
     <div class="nav-item">
       <RouterLink to="/">
-        <h1>FancyPlugins</h1>
+        <h1>FancyInnovations</h1>
       </RouterLink>
     </div>
 
@@ -25,7 +25,7 @@ import { RouterLink } from 'vue-router'
       </div>
 
       <div class="nav-item">
-        <a href="https://github.com/FancyMcPlugins" target="_blank">
+        <a href="https://github.com/FancyInnovations" target="_blank">
           <img src="/src/assets/img/github.png" alt="GitHub" />
         </a>
       </div>

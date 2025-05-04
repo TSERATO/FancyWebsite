@@ -8,8 +8,8 @@
         </div>
 
         <div>
-          <h1>FancyPlugins</h1>
-          <p class="color-yellow-dark">FancyPlugins is a collection of plugins that will make your server look more <b>fancy</b>.</p>
+          <h1>FancyInnovations</h1>
+          <p class="color-yellow-dark">FancyInnovations is a collection of plugins that will make your server look more <b>fancy</b>.</p>
           <p class="color-yellow-dark">Our focus is to create <b>simple</b>, <b>lightweight</b> and <b>fast</b> plugins.</p>
 
           <hr>
