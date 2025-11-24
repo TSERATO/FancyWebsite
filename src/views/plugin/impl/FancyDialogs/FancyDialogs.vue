@@ -11,21 +11,20 @@
       </div>
       <div class="hero-content">
         <div class="plugin-logo">
-          <img src="https://raw.githubusercontent.com/FancyInnovations/FancyPlugins/main/docs/src/static/logos-and-banners/fancynpcs-logo.png" alt="FancyNpcs Logo" />
+          <img src="https://raw.githubusercontent.com/FancyInnovations/FancyPlugins/main/docs/src/static/logos-and-banners/fancydialogs-logo.png" alt="FancyDialogs Logo" />
         </div>
-        <h1 class="plugin-title">FancyNpcs</h1>
-        <p class="plugin-tagline">Create and manage blazingly fast NPCs with the power of packets</p>
+        <h1 class="plugin-title">FancyDialogs</h1>
+        <p class="plugin-tagline">Create immersive interactive dialogs and conversations for your players</p>
 
         <div class="badges">
-          <img src="https://img.shields.io/github/v/release/FancyMcPlugins/FancyNpcs?style=flat-square" alt="Release"/>
-          <img src="https://badges.spiget.org/resources/downloads/spigotmc-orange-107306.svg" alt="Spigot Downloads"/>
-          <img src="https://img.shields.io/modrinth/dt/fancynpcs?color=00AF5C&label=modrinth&style=flat&logo=modrinth" alt="Modrinth Downloads"/>
-          <img src="https://img.shields.io/github/downloads/FancyMcPlugins/FancyNpcs/total?logo=GitHub&style=flat-square" alt="GitHub Downloads"/>
+          <img src="https://img.shields.io/github/v/release/FancyMcPlugins/FancyDialogs?style=flat-square" alt="Release"/>
+          <img src="https://img.shields.io/modrinth/dt/fancydialogs?color=00AF5C&label=modrinth&style=flat&logo=modrinth" alt="Modrinth Downloads"/>
+          <img src="https://img.shields.io/github/downloads/FancyMcPlugins/FancyDialogs/total?logo=GitHub&style=flat-square" alt="GitHub Downloads"/>
         </div>
 
         <div class="action-buttons">
-          <a href="https://modrinth.com/plugin/fancynpcs/versions" target="_blank" class="btn btn-primary">Download</a>
-          <a href="https://docs.fancyinnovations.com/fancynpcs/" target="_blank" class="btn btn-secondary">Documentation</a>
+          <a href="https://modrinth.com/plugin/fancydialogs/versions" target="_blank" class="btn btn-primary">Download</a>
+          <a href="https://docs.fancyinnovations.com/fancydialogs/" target="_blank" class="btn btn-secondary">Documentation</a>
         </div>
       </div>
     </div>
@@ -33,30 +32,19 @@
     <div class="plugin-content">
       <section class="content-section">
         <h2>Description</h2>
-        <p>FancyNpcs is a simple and lightweight npc plugin for minecraft servers. It is using packets and therefore it is blazingly fast.</p>
-        <p>The plugin is only supported for 1.19.4 - latest version. It is highly recommended to use Paper or a fork of it - Folia is also supported.</p>
+        <p>FancyDialogs allows you to create immersive interactive dialogs and conversations for your players. Build engaging storylines and interactive experiences with ease.</p>
+        <p>The plugin is lightweight and performant, ensuring your server runs smoothly while providing rich player interactions.</p>
       </section>
 
       <section class="content-section">
         <h2>Features</h2>
-        <p>With FancyNpcs you can create NPCs that look like real players. You can edit a bunch of properties like the display name or skin.</p>
-
-        <h3>All properties:</h3>
         <ul class="feature-list">
-          <li>Display name</li>
-          <li>Skin (username or url)</li>
-          <li>Entity type (cow, pig, blaze etc.)</li>
-          <li>Equipment (e.g. holding something in the hand)</li>
-          <li>Glowing (in all colors)</li>
-          <li>And many more properties that are entity specific</li>
-        </ul>
-
-        <h3>Interaction Actions:</h3>
-        <p>You can also define some actions that will be executed when a player interacts with the npc:</p>
-        <ul class="feature-list">
-          <li>Message: Sends a simple message to the player</li>
-          <li>Player command: Forces the player to execute a command</li>
-          <li>Server command: Executes a command in the console</li>
+          <li>Create branching conversation trees with multiple choices</li>
+          <li>Support for NPC dialogs with custom responses</li>
+          <li>Lightweight and performant dialog system</li>
+          <li>Easy-to-use configuration with YAML or JSON</li>
+          <li>Supports player triggers and conditions</li>
+          <li>Fully customizable dialog UI</li>
         </ul>
       </section>
     </div>
@@ -163,19 +151,18 @@
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .btn {
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   border-radius: 8px;
   font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
   border: 2px solid;
-  white-space: nowrap;
 }
 
 .btn-primary {
@@ -221,14 +208,6 @@
   color: var(--primary-light);
   margin: 0 0 1.5rem 0;
   letter-spacing: -0.5px;
-}
-
-.content-section h3 {
-  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--primary-light);
-  margin: 2rem 0 1rem 0;
 }
 
 .content-section p {

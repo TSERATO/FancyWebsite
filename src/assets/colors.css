@@ -1,15 +1,20 @@
 :root {
-  --blue: #2eaccc;
-  --blue-light: #3bd8ff;
-  --blue-dark: #134d5c;
-  --background-color: #110a03;
-  --foreground-color: #fff;
-  --gray: #929292;
-  --gray-dark: #212121;
+  --primary: #8d99ae;
+  --primary-light: #edf2f4;
+  --primary-dark: #2b2d42;
+  --background-color: #2b2d42;
+  --background-secondary: #1a1b2e;
+  --foreground-color: #edf2f4;
+  --gray: #8d99ae;
+  --gray-dark: #1a1b2e;
+  --accent: #ef233c;
 
-  --yellow: #FFD700;
-  --yellow-light: #FFFACD;
-  --yellow-dark: #836500;
+  --blue: #8d99ae;
+  --blue-light: #edf2f4;
+  --blue-dark: #2b2d42;
+  --yellow: #8d99ae;
+  --yellow-light: #edf2f4;
+  --yellow-dark: #2b2d42;
 }
 
 .color-yellow {
